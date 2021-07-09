@@ -39,7 +39,7 @@ export default class TransactionScreen extends Component {
 
   handleBarCodeScanned = async ({ data }) => {
 const {buttonState} = this.state
-if(buttonState === "BookID"){
+if(buttonState === "BookId"){
 
 this.setState({
       
@@ -49,7 +49,7 @@ this.setState({
 
     })
 
-} else if(buttonState === "StudentID"){
+} else if(buttonState === "StudentId"){
 
 
   this.setState({
